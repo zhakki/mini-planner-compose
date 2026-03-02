@@ -1,35 +1,30 @@
-# Mini Planner (ToDo)
+# Mini Planner (Compose)
 
-Lihtne Android-rakendus ülesannete (ToDo) haldamiseks. Fookus on korrektse projektistruktuuri ja GitHubi töövoo (harud, commit’id, PR-id, review) kasutamisel.
+Simple Android app to manage tasks and notes (mini planner).
 
-## Funktsioonid
-- Ülesannete lisamine (tekst + valikuline kuupäev)
-- Ülesannete nimekirja kuvamine
-- Ülesande märkimine tehtuks (checkbox/switch)
-- Ülesande kustutamine
+## Features
+- Add task (text + optional date)
+- View task list
+- Mark task as done (checkbox)
+- Delete task
+- Data persistence with SharedPreferences (JSON)
 
-## Tehnoloogia
-- Android Studio + Kotlin
-- Jetpack Compose (UI)
-- Navigation Compose (ekraanide vahel liikumine)
-- LazyColumn (nimekirja kuvamine)
-- SharedPreferences (andmete salvestus, JSON/Gson)
+## Tech
+- Kotlin
+- Jetpack Compose
+- Navigation Compose
+- SharedPreferences + Gson
 
-## Käivitamine
-1. Klooni repositoorium
-2. Ava projekt Android Studios
-3. Oota Gradle Sync lõpuni
-4. Käivita rakendus emulaatoris või seadmes (Run ▶)
+## Team
+- Name A — Navigation + screens
+- Name B — Task list UI (LazyColumn, TaskItem)
+- Name C — Storage (SharedPreferences, JSON) (optional)
 
-## Meeskond
-- **Liige 1:** (nimi, GitHub kasutaja) — roll: *TBD*
-- **Liige 2:** (nimi, GitHub kasutaja) — roll: *TBD*
-- **Liige 3:** (nimi, GitHub kasutaja) — roll: *TBD*
+## How to run
+1. Open project in Android Studio
+2. Sync Gradle
+3. Run on emulator/device (minSdk = ...)
+4. Use + button to add a task
 
-## GitHub töövoog
-- `main` haru on stabiilne (otse commit’e ei tehta)
-- Arendus toimub feature-harudes ja liitmine `main` harusse käib Pull Request’i kaudu
-- Igal PR-il on kirjeldus ja vähemalt 1 kommentaar teiselt tiimiliikmelt
-
-## Ekraanipildid (valikuline)
-- (Lisa siia 2–3 pilti)
+## Screenshots (optional)
+(Insert 2–3 images here)
